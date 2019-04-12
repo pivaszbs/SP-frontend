@@ -1,0 +1,65 @@
+a {
+    text-decoration: none;
+}
+.categories {
+    padding-top: 2%;
+}
+.container {
+    margin: auto;
+    text-align: center;
+    padding-top: 110px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.main-page_checkbox {
+    margin-left: 2vw;
+    padding-top: 110px;
+    position: absolute;
+}
+.main-page-title {
+    text-align: center;
+    font-family: "SFUI Display - Heavy";
+    letter-spacing: 2.25px;
+    font-size: 50px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.main-page-title__left {
+    color: #0078fd;
+}
+.main-page-title__right {
+    color: #0dff76;
+}
+.grid-items-container {
+    display: grid;
+    max-width: 800px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 250px);
+}
+.grid-container {
+    display: grid;
+    grid-gap: 20px;    
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+        "f f f s s"
+        "f f f s s"
+        "t t e s s"
+        "t t fr fr fr"
+        "t t fr fr fr";
+}
+.center {
+    display: inline-block;
+}
+.first {
+    grid-area: f;
+}
+.second {
+    grid-area: s;
+}
+.third {
+    grid-area: t;
+}
+.fourth {
+    grid-area: fr;
+}

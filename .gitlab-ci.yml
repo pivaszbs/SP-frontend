@@ -1,0 +1,11 @@
+backend:
+    only:
+        - backend
+    script:
+        - docker-compose up -d --build backend
+
+frontend:
+    only:
+        - frontend
+    script:
+        - docker-compose up -d --build frontend

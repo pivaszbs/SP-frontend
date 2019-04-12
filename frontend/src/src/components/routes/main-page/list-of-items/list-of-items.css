@@ -1,0 +1,13 @@
+.category {
+    justify-content: space-around;
+    background-color: #5184CC;
+    border-radius: 5px;
+    height:250px;
+}
+
+.categoryText {
+    position: absolute;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size:35px;
+}
